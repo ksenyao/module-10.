@@ -6,10 +6,6 @@ class Knight(Thread):
     all_enemy = 100
 
     def __init__(self, name: str, power: int):
-        """
-        :param name: имя рыцаря
-        :param power: сила рыцаря
-        """
         super().__init__()
         self.name = name
         self.power = power
